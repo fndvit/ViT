@@ -1,0 +1,34 @@
+{
+  "name": "@varez/toolkit",
+  "version": "0.0.2",
+  "description": "Internal Library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fndvit/vit.git"
+  },
+  "exports": {
+    "default": "./src/index.js"
+  },
+  "module": "./src/index.js",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {},
+  "author": "varez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fndvit/vit/issues"
+  },
+  "homepage": "https://github.com/fndvit/vit#readme",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "@tailwindcss/oxide"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@varez/charts": "0.0.3"
+  }
+}
