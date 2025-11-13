@@ -1,2 +1,2 @@
 // Reexport your entry components here
-export * as charts from '@varez/charts';
+export * as charts from '@vitfoundation/charts';
