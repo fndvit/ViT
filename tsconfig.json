@@ -1,25 +1,16 @@
 {
-  "files": [],
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "declaration": true,
-    "declarationMap": false,
-    "sourceMap": true,
-    "outDir": "dist",
-    "rootDir": ".",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "isolatedModules": false
-  },
-  "references": [
-    { "path": "packages/core" },
-    { "path": "packages/datasources" },
-    { "path": "packages/charts" },
-    { "path": "apps/backend" },
-    { "path": "apps/frontend" }
-  ]
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"allowImportingTsExtensions": true,
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext"
+	}
 }
